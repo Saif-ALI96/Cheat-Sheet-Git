@@ -1,0 +1,61 @@
+# 1- Ajouter un fichier dans votre repos Gibhub depuis votre machine locale.
+# add information folder in your local machine to your repository 
+
+
+pour ajouter des information existent dans votre machine locale (votre ordinateur) à votre GitHub,
+if faut faire plusieurs ètapes qui sont les suiventes:
+
+to add information exist in your local machine (your computer) to your GitHub,
+you have to do several steps which are as follows:
+
+
+# 1- git add (name of your folder) //
+
+sans mettre les parenthèses bien sûr, just le nom de votre dossier.
+
+ with out the the parentheses, just the name of your folder.
+
+
+# 2- git commit -m "your message" //
+
+ ici , on écrit un message quand on a ajouté le dossier dans le github pour nous rappeler après de nos modifications.
+
+ here, we write a message when we added the folder in the github to remind us after our modifications.
+
+
+# 3- git pull origin main //
+
+On fait un pull pour avoir les dernières modifications dans notre repos.
+Il est conseillè de faire cet ètape souvent afin de rècupèrer tout ce qu'il y a dans votre repos 
+Github. C'est à dire, pour que votre machine locale être à jour avec votre Github.
+
+We make a sweater to have the last modifications in our rest.
+it is advisable to do this step often in order to retrieve everything in your Github repository. that is, for your local machine to be up to date with your Github.
+
+# 4-git push origin main //
+
+On fait un push pour envoyer nos modifications dans notre repos(Github).
+
+We make a push to send our modifications in our repos (Github).
+
+
+# Voilà, c'est tout pour l'ajout de dossier dans votre repos
+
+# That's it for adding a folder to your repos.
+
+
+
+#### nota bene // good  note 
+ 
+il y a aussi une commande important pour nous, pour voir si on a à jour ou pas par rapport nos modifications.
+
+there is also a command important for us, to see if we have to update or not in relation to our modifications.
+
+c'est /// it is
+
+# git status 
+
+
+
+
+

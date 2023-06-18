@@ -1,0 +1,51 @@
+
+pour creer un repos a partir de notre machine locale, nous allons saisir cette command dans
+le terminal 
+
+# sudo apt install gh 
+
+apres avoir l'installer , vous saisisez la command suivente :
+# gh auth login
+
+vous allez alors rentrer votre mot de passe pour  valider,
+et cela va permettre d'authentifier vos identifiants et donc accder au compte Github
+depuis votre machine locale
+
+
+nous allons choisir le type de cle HTTPS et login with a web browser.
+cela va nous donner un code dans votre terminal, vous le conserver a cote et aller 
+sur le site suivent;
+# Https:// Github.com/login/device 
+Vous devriez maintenant pouvoir cliquer sur accepte et entrer le code qui
+vous seras proposé par GitHub.
+
+une fois vous avez fait cela , vous pouvez maintenant saisir les commande suivente 
+pour creer un repo depuis votre machine locale sur votre compte github directemen 
+
+# gh repo create
+vous serez invité a nommer votre nouveau repo puis confirmez.
+
+vous choisissez aussi si vous veullez mettre en public ou privee etc...
+
+
+
+
+
+# gh repo list
+Si vous voulez ajouter des collaborateurs à votre projet, utilisez cette commande
+#gh pr invite @user1,@user2
+Pour voir toutes les commandes disponibles, tapez # gh help
+
+
+
+
+
+ces commandes pour configurer votre mail et mot de pass de votre compte.
+
+
+Une fois ce processus fait, il est possible de se connecter directement via
+la ligne de commande Git comme suit :
+# git config --global user.email "<EMAIL>"
+# git config --global user.name "nom utilisateur"
+
+

@@ -1,0 +1,46 @@
+
+
+
+
+
+puis ensuite faire la commande suivante pour cloner le repo github que l'on veut utiliser.
+
+si on veut colonner un repos deja exsite dans compte github, nous utilisons la commande suivente;
+
+# git clone https://github.com/username/repo-name
+n'oubliez pas de copier le cle SSH de votre repos pour le mettre avec la commande git clone
+
+
+
+Pour créer une branche:
+
+## git checkout -b branch_name
+
+Pour revenir sur ma master :
+## git checkout main
+
+ Pour supprimer une branche (si elle n'est pas merge)
+## git branch -d branch_name
+
+ Pour fusionner les branches:
+## git pull origin branch_name
+
+## Pour pusher mes modifications vers mon remote repository
+git add *
+git commit -m "message"
+git push --set-upstream origin branch_name
+
+## Pour mettre à jour mon local avec celui du remote
+git fetch upstream
+git rebase upstream/main
+git push
+
+## Pour voir toutes les commandes disponibles
+git help
+
+
+
+### Ressources utiles
+https://www.atlassian.com/fr/git/tutorials
+branches/index.html
+https://www.youtube.com/watch?v=309P756k

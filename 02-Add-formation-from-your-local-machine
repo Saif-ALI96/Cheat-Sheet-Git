@@ -9,7 +9,8 @@ to add information exist in your local machine (your computer) to your GitHub,
 you have to do several steps which are as follows:
 
 
-# 1- git add (name of your folder) //
+```GitHub
+1- git add (name of your folder) //```
 
 sans mettre les parenthèses bien sûr, just le nom de votre dossier.
 
